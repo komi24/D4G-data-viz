@@ -1,0 +1,29 @@
+{
+  "name": "data4good",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komi24/D4G-data-viz.git"
+  },
+  "keywords": [
+    "data-viz",
+    "gender",
+    "equality"
+  ],
+  "author": "komi24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komi24/D4G-data-viz/issues"
+  },
+  "homepage": "https://github.com/komi24/D4G-data-viz#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-include-source": "^1.0.0",
+    "grunt-wiredep": "^3.0.1"
+  }
+}

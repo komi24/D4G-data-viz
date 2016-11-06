@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Data viz assemblee nationale</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  	<!-- bower:css -->
+	<!-- endbower -->
+
+    <!--
+      Include CSS files from a "tmp" directory, put there by another task.
+      This shows how to override the default "basePath" set in the options.
+    -->
+    <!-- include: "type": "css", "files": "css/**/*.css" -->
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<input type="text" name="key" id="key">
+<button id="plus-x" onClick="plusX()">Plus x</button>
+<button id="plus-x" onClick="moinsX()">Moins x</button>
+<button id="plus-x" onClick="plusY()">Plus y</button>
+<button id="plus-x" onClick="moinsY()">Moins y</button>
+<div id="canvas-an" style="width:500px;border:1px solid white; height:500px"></div>
+
+  	<!-- bower:js -->
+	<!-- endbower -->
+    <!-- include: "type": "js", "files": "js/**/*.js" -->
+</body>
+</html>
